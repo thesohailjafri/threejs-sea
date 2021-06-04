@@ -1,4 +1,4 @@
-# Three.js Journey
+# Three.js Sea Shader
 
 ## Setup
 Download [Node.js](https://nodejs.org/en/download/).
@@ -14,4 +14,4 @@ npm run dev
 # Build for production in the dist/ directory
 npm run build
 ```
-"# threejs-sea" 
+# threejs-sea
