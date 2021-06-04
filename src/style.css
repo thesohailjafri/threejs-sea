@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    overflow: hidden;
+}
+
+h1 {
+    position: fixed;
+    top: 20vh;
+    width: 100vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    z-index: 1;
+    color: #ffffff;
+    text-transform: uppercase;
+    opacity: 0.2;
+}
+
+.webgl {
+    z-index: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+@media screen and (min-width:300px) {
+    h1 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width:500px) {
+    h1 {
+        font-size: 60px;
+    }
+}
+
+@media screen and (min-width:700px) {
+    h1 {
+        font-size: 80px;
+    }
+}
+
+@media screen and (min-width:900px) {
+    h1 {
+        font-size: 100px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    h1 {
+        font-size: 100px;
+    }
+}
